@@ -383,7 +383,7 @@ scrollbar-width: none;
 	}
 }
 
-@media(max-width:27rem){
+@media(max-device-aspect-ratio: 86/183){
 	.nav{
 		flex-direction: column;
 	}
