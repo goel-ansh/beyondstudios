@@ -70,7 +70,7 @@ body {
 }
 
 h6{
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 	justify-items: center;
 	align-items: center;
 }
@@ -85,7 +85,7 @@ h1{
 }
 
 h3{
-	font-size: 4vw;
+	font-size: 4rem;
 }
 
 .alternate{
@@ -330,7 +330,7 @@ scrollbar-width: none;
 }
 .contact-us h1{
 	color: white;
-}
+}	
 
 .contact-us .alternate{
 	color: rgb(25, 25, 25);
@@ -380,5 +380,18 @@ scrollbar-width: none;
 @media(max-width:768px){
 	html{
 		font-size: 50%;
+	}
+}
+
+@media(max-width:430px){
+	.nav{
+		flex-direction: column;
+	}
+	.left-nav{
+		justify-content: center;
+		display: flex;
+	}
+	#main-text{
+		padding-top: 14rem;
 	}
 }
