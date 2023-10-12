@@ -387,17 +387,17 @@ scrollbar-width: none;
 	.nav{
 		flex-direction: column;
 	}
+
+	body{
+		font-size: 3.5vw;
+	}
 	.left-nav{
 		justify-content: center;
 		display: flex;
 	}
 	#main-text{
-		padding-top: 14rem;
+		padding-top: 20rem;
 	}
+	
 }
 
-/* #test{
-	height: 200px;
-	width: 200px;
-	background-color: red;
-} */
